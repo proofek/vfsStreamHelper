@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>vfsStreamHelper</name>
+ <uri>a</uri>
+ <summary>vfsStream helper for PHPUnit</summary>
+ <description>An extention for PHPUnit to simplify and automate some of vfsStream features</description>
+ <lead>
+  <name>Sebastian Marek</name>
+  <user>proofek</user>
+  <email>proofek@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-07-22</date>
+ <time>16:59:41</time>
+ <version>
+  <release>0.1</release>
+  <api>0.1</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+ <notes>
+First alpha release
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="1b65e633ff8cac2209320d488e9341e8" name="Tests/DirectoryTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="893585fa2382beb223ee371983f8bf04" name="Tests/FileTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="de29e4242ce7746464a8081dac6ea584" name="Tests/phpunit.xml.dist" role="data" />
+   <file baseinstalldir="/" md5sum="b481d8b9443a7d0b59d849ad27ea4d2f" name="vfsStreamHelper/Directory.php" role="php" />
+   <file baseinstalldir="/" md5sum="ed708a360a39f505eff9350f281ff1d4" name="vfsStreamHelper/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="ac4b64d548d0de3e6c5cc2268fc2a4bb" name="vfsStreamHelper/File.php" role="php" />
+   <file baseinstalldir="/" md5sum="d7b1e09c34a2575dfdbdd86a5ae4e9de" name="vfsStreamHelper/Wrapper.php" role="php" />
+   <file baseinstalldir="/" md5sum="fa6f24111a2013b732a9335d82487784" name="README.markdown" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1</release>
+    <api>0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2010-07-22</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+First alpha release
+   </notes>
+  </release>
+ </changelog>
+</package>
