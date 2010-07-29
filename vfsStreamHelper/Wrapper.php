@@ -59,13 +59,15 @@ class vfsStreamHelper_Wrapper
      * Registers vfsStream
      *
      * @param PHPUnit_Framework_TestCase $testCase
+     *
+     * @return vfsStreamHelper_Wrapper
      */
     public function __construct(PHPUnit_Framework_TestCase $testCase, $mountPoint = 'root')
     {
         @include_once 'vfsStream/vfsStream.php';
         if (!class_exists('vfsStreamWrapper')) {
 
-            $this->markTestSkipped('vfsStream is not available - skipping');
+            $testCase->markTestSkipped('vfsStream is not available - skipping');
 
         } else {
             vfsStream::setup($mountPoint);
